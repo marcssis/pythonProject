@@ -1,3 +1,3 @@
 import random
-alu = random.('pedro', 'julia' 'felipe')
+alu = random.random('pedro', 'julia' 'felipe')
 print(alu)
