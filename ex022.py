@@ -1,2 +1,8 @@
-frase = '123456789'
-print(frase[0:9:3])
+nome = str(input('Digite seu nome completo: '))
+print('Analisando o nome...')
+print('Seu nome em maiúsculas é {}'.format(nome.upper()))
+print('Seu nome em minúsculas é {}'.format(nome.lower()))
+print('Seu nome tem {} letras.'.format(len(nome)))
+div = nome.split()
+print('Seu primeiro nome tem {} letras'.format(len(div[0])))
+print('Seu sobrenome tem {} letras'.format(len(div[1])))

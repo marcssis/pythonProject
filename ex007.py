@@ -5,3 +5,8 @@ media = (nota1+nota2+nota3) / 3
 
 print('A média do aluno é {:.1f}'.format(media))
 
+if media < 7.0:
+    print('O aluno está reprovado!')
+else:
+    print('O aluno está aprovado!')
+

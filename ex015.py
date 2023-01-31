@@ -8,4 +8,3 @@ print('O total de dias rodados foi {} e a quilometragem rodada foi: {}.'. format
 print('No total de dias você pagará R${:.2f} e pagará R${:.2f} pelo total de km rodados!'.format(dia, km))
 print('')
 print('O valor total ficou: R${}. Muito obrigado por nos escolher e até a próxima!'.format(total))
-
